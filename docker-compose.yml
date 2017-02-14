@@ -344,7 +344,7 @@ services:
         ports:
             - "9090:80"
         volumes:
-            - ../storage/app/themes/:code/workspace
+            - ../storage/app/themes/:/code/workspace
 
 ### Volumes Setup ###########################################
 
